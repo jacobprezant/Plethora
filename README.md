@@ -3,8 +3,8 @@ Plethora is an iOS proof-of-concept application, written entirely in Swift, that
 
 Plethora is built as an educational resource and starting point for developers seeking to implement data extraction and replacement in `.mobileprovision` and `.ipa` files. 
 
-![](mobileprovision.swift.png)
-Take a look at the application identifier extractor function &#8593;, or more directly [here](mobileprovision.swift).
+![](/Images/mobileprovision.swift.png)
+Take a look at the application identifier extractor function &#8593;, or more directly [here](/plethora/mobileprovision.swift).
 
 ## How does it work?
 
