@@ -11,7 +11,7 @@ import SwiftUI
 struct PlethoraApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashView() // ← This is what you replace
+            SplashView()
         }
     }
 }

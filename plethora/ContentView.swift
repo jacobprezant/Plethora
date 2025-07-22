@@ -10,10 +10,6 @@ import UniformTypeIdentifiers
 
 extension UTType { static let mobileprovision = UTType(filenameExtension: "mobileprovision", conformingTo: .data) ?? .data }
 
-extension URLResourceKey {
-    static let isUbiquitousItemDownloadedKey = URLResourceKey("isUbiquitousItemDownloaded")
-}
-
 struct ContentView: View {
 @State private var showPicker = false
 @State private var showIPA = false
@@ -73,7 +69,6 @@ struct DocumentPicker: UIViewControllerRepresentable {
         func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
             if let u = urls.first { onPick(u) }
         }
-        func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {}
     }
 
     func makeUIViewController(context: Context) -> UIDocumentPickerViewController {
@@ -83,4 +78,8 @@ struct DocumentPicker: UIViewControllerRepresentable {
     }
 
     func updateUIViewController(_ uiViewController: UIDocumentPickerViewController, context: Context) {}
+}
+
+#Preview {
+    ContentView()
 }

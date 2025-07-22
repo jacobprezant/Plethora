@@ -21,10 +21,6 @@ struct SplashView: View {
                             .font(.largeTitle)
                             .bold()
                     }
-                    Link(destination: URL(string: "https://github.com/jacobprezant")!) {
-                        Text("Jacob Prezant")
-                            
-                    }
                 }
                 .multilineTextAlignment(.center)
                 .padding()

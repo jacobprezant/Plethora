@@ -10,43 +10,14 @@
 		C894FCFC2DEC154B00F1AA69 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = C894FCFB2DEC154B00F1AA69 /* ZIPFoundation */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C894FCD62DEC14A400F1AA69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C894FCC02DEC14A200F1AA69 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C894FCC72DEC14A200F1AA69;
-			remoteInfo = plethora;
-		};
-		C894FCE02DEC14A400F1AA69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C894FCC02DEC14A200F1AA69 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C894FCC72DEC14A200F1AA69;
-			remoteInfo = plethora;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		C894FCC82DEC14A200F1AA69 /* plethora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plethora.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C894FCD52DEC14A400F1AA69 /* plethoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plethoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C894FCDF2DEC14A400F1AA69 /* plethoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plethoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C894FCCA2DEC14A200F1AA69 /* plethora */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = plethora;
-			sourceTree = "<group>";
-		};
-		C894FCD82DEC14A400F1AA69 /* plethoraTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = plethoraTests;
-			sourceTree = "<group>";
-		};
-		C894FCE22DEC14A400F1AA69 /* plethoraUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = plethoraUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -60,20 +31,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C894FCD22DEC14A400F1AA69 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C894FCDC2DEC14A400F1AA69 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,8 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				C894FCCA2DEC14A200F1AA69 /* plethora */,
-				C894FCD82DEC14A400F1AA69 /* plethoraTests */,
-				C894FCE22DEC14A400F1AA69 /* plethoraUITests */,
 				C894FCC92DEC14A200F1AA69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				C894FCC82DEC14A200F1AA69 /* plethora.app */,
-				C894FCD52DEC14A400F1AA69 /* plethoraTests.xctest */,
-				C894FCDF2DEC14A400F1AA69 /* plethoraUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,52 +76,6 @@
 			productReference = C894FCC82DEC14A200F1AA69 /* plethora.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C894FCD42DEC14A400F1AA69 /* plethoraTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C894FCEC2DEC14A400F1AA69 /* Build configuration list for PBXNativeTarget "plethoraTests" */;
-			buildPhases = (
-				C894FCD12DEC14A400F1AA69 /* Sources */,
-				C894FCD22DEC14A400F1AA69 /* Frameworks */,
-				C894FCD32DEC14A400F1AA69 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C894FCD72DEC14A400F1AA69 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C894FCD82DEC14A400F1AA69 /* plethoraTests */,
-			);
-			name = plethoraTests;
-			packageProductDependencies = (
-			);
-			productName = plethoraTests;
-			productReference = C894FCD52DEC14A400F1AA69 /* plethoraTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C894FCDE2DEC14A400F1AA69 /* plethoraUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C894FCEF2DEC14A400F1AA69 /* Build configuration list for PBXNativeTarget "plethoraUITests" */;
-			buildPhases = (
-				C894FCDB2DEC14A400F1AA69 /* Sources */,
-				C894FCDC2DEC14A400F1AA69 /* Frameworks */,
-				C894FCDD2DEC14A400F1AA69 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C894FCE12DEC14A400F1AA69 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C894FCE22DEC14A400F1AA69 /* plethoraUITests */,
-			);
-			name = plethoraUITests;
-			packageProductDependencies = (
-			);
-			productName = plethoraUITests;
-			productReference = C894FCDF2DEC14A400F1AA69 /* plethoraUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,14 +88,6 @@
 				TargetAttributes = {
 					C894FCC72DEC14A200F1AA69 = {
 						CreatedOnToolsVersion = 16.4;
-					};
-					C894FCD42DEC14A400F1AA69 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = C894FCC72DEC14A200F1AA69;
-					};
-					C894FCDE2DEC14A400F1AA69 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = C894FCC72DEC14A200F1AA69;
 					};
 				};
 			};
@@ -210,28 +109,12 @@
 			projectRoot = "";
 			targets = (
 				C894FCC72DEC14A200F1AA69 /* plethora */,
-				C894FCD42DEC14A400F1AA69 /* plethoraTests */,
-				C894FCDE2DEC14A400F1AA69 /* plethoraUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C894FCC62DEC14A200F1AA69 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C894FCD32DEC14A400F1AA69 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C894FCDD2DEC14A400F1AA69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,38 +131,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C894FCD12DEC14A400F1AA69 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C894FCDB2DEC14A400F1AA69 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C894FCD72DEC14A400F1AA69 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C894FCC72DEC14A200F1AA69 /* plethora */;
-			targetProxy = C894FCD62DEC14A400F1AA69 /* PBXContainerItemProxy */;
-		};
-		C894FCE12DEC14A400F1AA69 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C894FCC72DEC14A200F1AA69 /* plethora */;
-			targetProxy = C894FCE02DEC14A400F1AA69 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C894FCE72DEC14A400F1AA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = C894FCCA2DEC14A200F1AA69 /* plethora */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -313,6 +171,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8NL256X33V;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -343,6 +202,8 @@
 		};
 		C894FCE82DEC14A400F1AA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = C894FCCA2DEC14A200F1AA69 /* plethora */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -376,6 +237,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8NL256X33V;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -399,13 +261,15 @@
 		};
 		C894FCEA2DEC14A400F1AA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = C894FCCA2DEC14A200F1AA69 /* plethora */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -419,7 +283,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jcp.plethora;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.plethora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -430,13 +294,15 @@
 		};
 		C894FCEB2DEC14A400F1AA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = C894FCCA2DEC14A200F1AA69 /* plethora */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,80 +316,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jcp.plethora;
+				PRODUCT_BUNDLE_IDENTIFIER = prezant.plethora;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C894FCED2DEC14A400F1AA69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jcp.plethoraTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plethora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/plethora";
-			};
-			name = Debug;
-		};
-		C894FCEE2DEC14A400F1AA69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jcp.plethoraTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plethora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/plethora";
-			};
-			name = Release;
-		};
-		C894FCF02DEC14A400F1AA69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jcp.plethoraUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = plethora;
-			};
-			name = Debug;
-		};
-		C894FCF12DEC14A400F1AA69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jcp.plethoraUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = plethora;
 			};
 			name = Release;
 		};
@@ -544,24 +342,6 @@
 			buildConfigurations = (
 				C894FCEA2DEC14A400F1AA69 /* Debug */,
 				C894FCEB2DEC14A400F1AA69 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C894FCEC2DEC14A400F1AA69 /* Build configuration list for PBXNativeTarget "plethoraTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C894FCED2DEC14A400F1AA69 /* Debug */,
-				C894FCEE2DEC14A400F1AA69 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C894FCEF2DEC14A400F1AA69 /* Build configuration list for PBXNativeTarget "plethoraUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C894FCF02DEC14A400F1AA69 /* Debug */,
-				C894FCF12DEC14A400F1AA69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
