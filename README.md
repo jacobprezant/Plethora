@@ -3,7 +3,7 @@
 
 # Plethora
 
-Programmatical modification, extraction, and generation related to `.ipa`, `.mobileprovision` & `.p12` files.
+Programmatic modification, extraction, and generation related to `.ipa`, `.mobileprovision` & `.p12` files.
 
 #### Current Features: 
 
